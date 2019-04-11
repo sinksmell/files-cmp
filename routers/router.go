@@ -9,7 +9,6 @@ package routers
 
 import (
 	"github.com/sinksmell/files-cmp/controllers"
-
 	"github.com/astaxie/beego"
 )
 
@@ -23,6 +22,10 @@ func init() {
 		beego.NSNamespace("/user",
 			beego.NSInclude(
 				&controllers.UserController{},
+			),
+		),
+		beego.NSNamespace("/check",beego.NSInclude(
+			&controllers.CheckController{},
 			),
 		),
 	)
