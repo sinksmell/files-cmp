@@ -42,10 +42,19 @@ func(c*CheckController)Get(){
 func (c*CheckController)Hash(){
 	var req models.HashRequest
 	resp:=&models.Response{}
-	if err:=json.Unmarshal(c.Ctx.Input.RequestBody,&req);err==nil{
+	if err:=json.Unmarshal(c.Ctx.Input.RequestBody,&req);err!=nil{
 		fmt.Println(req)
-		resp.Code=0
-		resp.Msg="OK"
+		resp.Code=100
+		resp.Msg=err.Error()
+	}else{
+		if equal, _:= models.CmpMd5(models.GROUP_PATH+req.FileName, req.Hash);equal{
+			resp.Code=0
+			resp.Msg="OK"
+		}else{
+			resp.Code=200
+			resp.Msg="Not Equal"
+		}
+
 	}
 	c.Data["json"]=resp
 	c.ServeJSON()
