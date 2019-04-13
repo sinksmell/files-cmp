@@ -34,7 +34,7 @@ func TestDivide(t *testing.T) {
 func TestFileCmp(t *testing.T) {
 
 	dmp := diffmatchpatch.New()
-	if diffs, err := models.FileDiff("test.txt", "test2.txt"); err != nil {
+	if diffs, err := models.FileDiff("../group/group_9.txt", "../static/upload/group_9.txt"); err != nil {
 		fmt.Println(err)
 	} else {
 		fmt.Println(dmp.DiffPrettyText(diffs))

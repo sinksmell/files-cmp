@@ -44,14 +44,14 @@ func (c*CheckController)Hash(){
 	resp:=&models.Response{}
 	if err:=json.Unmarshal(c.Ctx.Input.RequestBody,&req);err!=nil{
 		fmt.Println(req)
-		resp.Code=100
+		resp.Code=models.REQ_ERR
 		resp.Msg=err.Error()
 	}else{
 		if equal, _:= models.CmpMd5(models.GROUP_PATH+req.FileName, req.Hash);equal{
-			resp.Code=0
+			resp.Code=models.EQUAL
 			resp.Msg="OK"
 		}else{
-			resp.Code=200
+			resp.Code=models.NOT_EQUAL
 			resp.Msg="Not Equal"
 		}
 
@@ -73,8 +73,9 @@ func (c*CheckController)File(){
 		resp.Code=100
 		resp.Msg=err.Error()
 	}
-
-	defer f.Close()
+	if f!=nil{
+		defer f.Close()
+	}
 	err = c.SaveToFile("file", "static/upload/"+h.Filename) // 保存位置在 static/upload, 没有文件夹要先创建
 	if err != nil {
 		resp.Msg=err.Error()

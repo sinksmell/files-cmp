@@ -2,133 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccfbebef-5c87-4352-9aa9-c898d9be1972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/client.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file28.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file33.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file34.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file35.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file36.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file37.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file38.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file40.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file41.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file42.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file43.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file44.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file46.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file47.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file48.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file49.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file50.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file51.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file52.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file53.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file54.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file55.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file56.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file57.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file58.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file59.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file60.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file61.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file62.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file63.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file64.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file65.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file66.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file67.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file68.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file69.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file70.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file71.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file72.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file73.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file74.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file75.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file76.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file77.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file78.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file79.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file80.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file81.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file82.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file83.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file84.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file85.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file86.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file87.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file88.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file89.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file90.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file91.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file92.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file93.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file94.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file95.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file96.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file97.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file98.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/file/file99.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/group/group_9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tests/check_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/utils/check.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/utils/comm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/fbin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tests/file/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/tests/file/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/file/file9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/file/file9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/group/group_9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/group/group_9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tests/check_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/tests/check_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/utils/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/utils/check.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/utils/comm.go" beforeDir="false" afterPath="$PROJECT_DIR$/client/utils/comm.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/check.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/check.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files-cmp" beforeDir="false" afterPath="$PROJECT_DIR$/files-cmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files-cmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lastupdate.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/lastupdate.tmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/commons.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/commons.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/file.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/hash.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/hash.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/object.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/object.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/upload/ele.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/file_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/file_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/hash_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/tests/hash_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,97 +39,55 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="conf" value="1" />
-          <entry key="go" value="30" />
+          <entry key="go" value="45" />
           <entry key="jpg" value="1" />
+          <entry key="md" value="1" />
           <entry key="s" value="2" />
           <entry key="tmp" value="1" />
-          <entry key="txt" value="19" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="30" />
+          <entry key="Go" value="45" />
           <entry key="Image" value="1" />
-          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="27" />
           <entry key="x86 Plan9 Assembly" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="4533" />
-          <entry key="txt" value="71" />
+          <entry key="go" value="6921" />
+          <entry key="md" value="1" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="4533" />
-          <entry key="PLAIN_TEXT" value="71" />
+          <entry key="Go" value="6921" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/file_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+            <state relative-caret-position="255">
+              <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/file.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
-              <folding>
-                <element signature="n#!!block;n#GetAllFiles#0" />
-                <element signature="n#!!block;n#Divide#0" />
-                <element signature="n#!!block;n#FileDiff#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/hash_test.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/check.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/file/file1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/utils/check.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="-297">
+              <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
               <folding>
                 <element signature="e#15#124#0" expanded="true" />
               </folding>
@@ -250,14 +97,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/utils/comm.go">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/client.go">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/check.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="349">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -265,8 +116,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/tests/check_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="301">
+              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/client.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+              <folding>
+                <element signature="e#14#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/group/group_10.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/group/group_9.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/file/file9.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/commons.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="e#16#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -293,15 +194,22 @@
         <option value="$PROJECT_DIR$/conf/app.conf" />
         <option value="$PROJECT_DIR$/models/md5.go" />
         <option value="$PROJECT_DIR$/models/hash.go" />
-        <option value="$PROJECT_DIR$/models/commons.go" />
         <option value="$PROJECT_DIR$/tests/hash_test.go" />
         <option value="$PROJECT_DIR$/tests/test.txt" />
         <option value="$PROJECT_DIR$/tests/test2.txt" />
-        <option value="$PROJECT_DIR$/tests/file_test.go" />
         <option value="$PROJECT_DIR$/models/file.go" />
-        <option value="$PROJECT_DIR$/controllers/check.go" />
         <option value="$PROJECT_DIR$/client/main.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/client/tests/test.txt" />
+        <option value="$PROJECT_DIR$/client/group/group_9.txt" />
+        <option value="$PROJECT_DIR$/client/file/file9.txt" />
+        <option value="$PROJECT_DIR$/controllers/check.go" />
+        <option value="$PROJECT_DIR$/models/commons.go" />
+        <option value="$PROJECT_DIR$/client/utils/comm.go" />
+        <option value="$PROJECT_DIR$/client/utils/check.go" />
         <option value="$PROJECT_DIR$/client/tests/check_test.go" />
+        <option value="$PROJECT_DIR$/client/client.go" />
+        <option value="$PROJECT_DIR$/tests/file_test.go" />
       </list>
     </option>
   </component>
@@ -311,11 +219,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="299" />
-    <option name="y" value="51" />
-    <option name="width" value="1600" />
-    <option name="height" value="822" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="38" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -338,6 +246,11 @@
               <item name="files-cmp" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="files-cmp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="files-cmp" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -353,7 +266,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/tests/file" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/tests" />
+      <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/tests" />
       <recent name="$PROJECT_DIR$/file" />
     </key>
@@ -370,7 +288,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build client.go">
+  <component name="RunManager" selected="Go Test.TestFileCmp in github.com/sinksmell/files-cmp/tests">
     <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="files-cmp" />
       <working_directory value="$PROJECT_DIR$/client/" />
@@ -381,17 +299,7 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="files-cmp" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/client/main.go" />
-      <package value="github.com/sinksmell/files-cmp" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCmpMd5 in github.com/sinksmell/files-cmp/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFileCmp in github.com/sinksmell/files-cmp/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="files-cmp" />
       <working_directory value="$PROJECT_DIR$/tests" />
       <go_parameters value="-i" />
@@ -400,99 +308,110 @@
       <package value="github.com/sinksmell/files-cmp/tests" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCmpMd5$" />
+      <pattern value="^TestFileCmp$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetBMd5 in github.com/sinksmell/files-cmp/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParseResp in github.com/sinksmell/files-cmp/client/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="files-cmp" />
-      <working_directory value="$PROJECT_DIR$/tests" />
+      <working_directory value="$PROJECT_DIR$/client/tests" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/sinksmell/files-cmp/tests" />
+      <package value="github.com/sinksmell/files-cmp/client/tests" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestGetBMd5$" />
+      <pattern value="^TestParseResp$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParch in github.com/sinksmell/files-cmp/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="files-cmp" />
-      <working_directory value="$PROJECT_DIR$/tests" />
+      <working_directory value="$PROJECT_DIR$/client/tests" />
       <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/sinksmell/files-cmp/tests" />
+      <package value="github.com/sinksmell/files-cmp/client/tests" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestParch$" />
+      <pattern value="^TestSendGroupMd5$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="files-cmp" />
+      <working_directory value="$PROJECT_DIR$/client/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/sinksmell/files-cmp/client/tests" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSendGroupMd5$" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build main.go" />
       <item itemvalue="Go Build.go build client.go" />
-      <item itemvalue="Go Test.TestGetBMd5 in github.com/sinksmell/files-cmp/tests" />
-      <item itemvalue="Go Test.TestParch in github.com/sinksmell/files-cmp/tests" />
-      <item itemvalue="Go Test.TestCmpMd5 in github.com/sinksmell/files-cmp/tests" />
+      <item itemvalue="Go Test.TestParseResp in github.com/sinksmell/files-cmp/client/tests" />
+      <item itemvalue="Go Test.TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests" />
+      <item itemvalue="Go Test.TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests (1)" />
+      <item itemvalue="Go Test.TestFileCmp in github.com/sinksmell/files-cmp/tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestFileCmp in github.com/sinksmell/files-cmp/tests" />
         <item itemvalue="Go Build.go build client.go" />
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestGetBMd5 in github.com/sinksmell/files-cmp/tests" />
-        <item itemvalue="Go Test.TestCmpMd5 in github.com/sinksmell/files-cmp/tests" />
-        <item itemvalue="Go Test.TestParch in github.com/sinksmell/files-cmp/tests" />
+        <item itemvalue="Go Test.TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests (1)" />
+        <item itemvalue="Go Test.TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests" />
+        <item itemvalue="Go Test.TestParseResp in github.com/sinksmell/files-cmp/client/tests" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFileCmp_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 21h 56m 32s.xml">
+    <history-entry file="TestPostFile_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 18h 24m 06s.xml">
+      <configuration name="TestPostFile in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPostFile_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 18h 26m 52s.xml">
+      <configuration name="TestPostFile in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPostFile_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 18h 28m 13s.xml">
+      <configuration name="TestPostFile in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPostFile_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 18h 28m 59s.xml">
+      <configuration name="TestPostFile in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPostFile_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 18h 37m 03s.xml">
+      <configuration name="TestPostFile in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestPostFile_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 19h 06m 12s.xml">
+      <configuration name="TestPostFile in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestParseResp_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 19h 06m 20s.xml">
+      <configuration name="TestParseResp in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSendGroupMd5_in_github_com_sinksmell_files-cmp_client_tests - 2019.04.13 at 19h 08m 06s.xml">
+      <configuration name="TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSendGroupMd5_in_github_com_sinksmell_files-cmp_client_tests_(1) - 2019.04.13 at 19h 08m 33s.xml">
+      <configuration name="TestSendGroupMd5 in github.com/sinksmell/files-cmp/client/tests (1)" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestFileCmp_in_github_com_sinksmell_files-cmp_tests - 2019.04.13 at 19h 15m 28s.xml">
       <configuration name="TestFileCmp in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFileCmp_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 21h 57m 38s.xml">
-      <configuration name="TestFileCmp in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFileCmp_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 21h 58m 08s.xml">
-      <configuration name="TestFileCmp in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFileCmp_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 22h 10m 28s.xml">
-      <configuration name="TestFileCmp in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestFileCmp_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 22h 43m 42s.xml">
-      <configuration name="TestFileCmp in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParch_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 22h 54m 07s.xml">
-      <configuration name="TestParch in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParch_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 22h 54m 44s.xml">
-      <configuration name="TestParch in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestParch_in_github_com_sinksmell_files-cmp_tests - 2019.04.11 at 22h 55m 18s.xml">
-      <configuration name="TestParch in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestCmpMd5_in_github_com_sinksmell_files-cmp_tests - 2019.04.12 at 19h 35m 27s.xml">
-      <configuration name="TestCmpMd5 in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestGetBMd5_in_github_com_sinksmell_files-cmp_tests - 2019.04.12 at 19h 36m 23s.xml">
-      <configuration name="TestGetBMd5 in github.com/sinksmell/files-cmp/tests" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="26" width="1600" height="822" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1600" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13307494" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14018089" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39803094" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40197286" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32630098" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46115905" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4599156" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -508,24 +427,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/object.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ref.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -557,16 +462,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/default_test.go" />
-    <entry file="file://$PROJECT_DIR$/models/commons.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#16#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
@@ -654,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/testing/testing.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17886">
-          <caret line="829" selection-start-line="829" selection-end-line="829" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/os/exec/exec.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3124">
@@ -678,13 +566,6 @@
     <entry file="file://$PROJECT_DIR$/group/group_1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/file_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/hash_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -692,52 +573,164 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/file/file1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ref.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="22">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="625" selection-start-line="625" selection-end-line="625" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/io/ioutil/ioutil.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/bytes/reader.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/io/io.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="363" selection-start-line="363" selection-end-line="363" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/tests/file/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="748" selection-start-line="748" selection-end-line="748" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.11.4/libexec/src/mime/multipart/writer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/file.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+        <state relative-caret-position="179">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding>
             <element signature="n#!!block;n#GetAllFiles#0" />
             <element signature="n#!!block;n#Divide#0" />
-            <element signature="n#!!block;n#FileDiff#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/group/group_10.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/group/group_9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/file/file9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/commons.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/utils/comm.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/check.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+        <state relative-caret-position="349">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/file/file1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/tests/check_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/utils/comm.go">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/utils/check.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="-297">
+          <caret line="44" column="15" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="15" />
           <folding>
             <element signature="e#15#124#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/tests/check_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/client.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="290">
+          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding>
+            <element signature="e#14#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/file_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="90" selection-start-line="36" selection-start-column="90" selection-end-line="36" selection-end-column="90" />
         </state>
       </provider>
     </entry>
