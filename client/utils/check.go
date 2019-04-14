@@ -61,7 +61,7 @@ func SendGrpMd5(grpFile ,targetURL string) (resp *models.Response, err error) {
 }
 
 // 提交文件
-func PostFile(filename ,targetURL ,filepath string) (res *models.Response,err error) {
+func PostFile(filename ,targetURL ,filepath,cmpType string) (res *models.Response,err error) {
 
 	var (
 		bodyBuf    *bytes.Buffer
@@ -90,6 +90,8 @@ func PostFile(filename ,targetURL ,filepath string) (res *models.Response,err er
 	}
 	// 设置请求头 发送请求
 	contentType:=bodyWriter.FormDataContentType()
+	// 设置文件对比类型
+	bodyWriter.WriteField("type",cmpType)
 	// 关闭Writer 使用defer会出错
 	bodyWriter.Close()
 

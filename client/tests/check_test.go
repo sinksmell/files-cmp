@@ -46,7 +46,7 @@ func TestPostFile(t*testing.T){
 	target:="http://localhost:8080/v1/check/file"
 	fileName:="dog.png"
 
-	if res,err:=utils.PostFile(fileName,target,models.FILE_PATH);err!=nil{
+	if res,err:=utils.PostFile(fileName,target,models.FILE_PATH,models.CMP_FILE);err!=nil{
 		fmt.Println(err)
 		return
 	}else {

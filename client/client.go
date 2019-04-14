@@ -13,7 +13,8 @@ const (
 )
 
 var (
-	groups []string
+	groups    []string //分组文件列表
+	diffFiles []string // 需要对比的小文件集合
 )
 
 func init() {
@@ -26,6 +27,7 @@ func init() {
 	models.Divide(models.FILE_PATH, models.GROUP_PATH)
 	// 获取组文件列表
 	groups, _ = models.GetAllFiles(models.GROUP_PATH)
+	diffFiles = make([]string, 0)
 }
 
 func main() {
@@ -36,26 +38,49 @@ func main() {
 	)
 
 	for _, grp := range groups {
-		if resp, err = utils.SendGrpMd5(grp,HOST+HASH_URL); err != nil {
+		if resp, err = utils.SendGrpMd5(grp, HOST+HASH_URL); err != nil {
 			fmt.Println(err)
 			continue
 		}
 		switch resp.Code {
 		case models.EQUAL:
-			fmt.Println(resp)
+			// 分组文件的Md5值相同 不需要处理
+			fmt.Println(grp, "\t分组文件内容相同! ")
 		case models.NOT_EQUAL:
-			fmt.Println("NOT EQUAL")
-		handleDiff(grp)
+			// 如果分组文件的Md5值不同 则把该分组文件发送过去 找到需要对比的小文件
+			fmt.Println(grp, "\t分组文件内容不同! ")
+			handleDiffGroup(grp)
 		case models.REQ_ERR:
+			fmt.Println("Request Err!")
 		}
 	}
 }
 
-func handleDiff(grpFile string) {
-	if res, err := utils.PostFile(grpFile, HOST+FILE_URL,models.GROUP_PATH);err!=nil {
+func handleDiffGroup(grpFile string) {
+
+	var (
+		res *models.Response
+		err error
+	)
+
+	// 发送分组文件  文件对比类型为 cmp_group 即对比响应的分组文件
+	if res, err = utils.PostFile(grpFile, HOST+FILE_URL, models.GROUP_PATH, models.CMP_GROUP); err != nil {
 		fmt.Println(err)
 		return
-	}else{
-		fmt.Println(res)
+	}
+
+	// 获取响应中的 期望对比的文件集合
+	if len(res.Ack) > 0 {
+		for _, fname := range res.Ack {
+			// 遍历集合 把小文件发送过去 对比文件内容
+			if _res, err := utils.PostFile(fname, HOST+FILE_URL, models.FILE_PATH, models.CMP_FILE); err != nil {
+				fmt.Println("发送错误!")
+				continue
+			} else {
+				fmt.Println(_res.Diff)
+			}
+
+		}
+
 	}
 }
