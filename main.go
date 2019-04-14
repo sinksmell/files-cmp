@@ -7,7 +7,7 @@ import (
 	"github.com/sinksmell/files-cmp/models"
 )
 
-func init(){
+func init() {
 	// 初始化文件列表
 	models.InitFiles(models.FILE_PATH)
 	// 文件分组 组文件中存放 文件名 MD5值
