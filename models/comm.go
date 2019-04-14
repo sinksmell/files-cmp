@@ -1,8 +1,8 @@
 package models
 
 import (
-	"math"
 	"github.com/astaxie/beego"
+	"math"
 	"strings"
 )
 
@@ -63,10 +63,10 @@ type HashRequest struct {
 
 // 文件对比结果
 type DiffResult struct {
-	FileName string`json:"file_name"`		// 对比的文件
-	ClientContent string `json:"c_content"` // 客户端文件特有的内容
-	ServerContent string `json:"s_content"` // 服务端文件特有的内容
-	Changes       string `json:"changes"`   // 文件的变化记录
+	FileName      string `json:"file_name"`  // 对比的文件
+	ClientContent string `json:"c_content"`  // 客户端文件特有的内容
+	ServerContent string `json:"s_content"`  // 服务端文件特有的内容
+	Changes       string `json:"changes"`    // 文件的变化记录
 	ColorText     string `json:"color_text"` // 高亮显示出两个文本不同的内容
 }
 

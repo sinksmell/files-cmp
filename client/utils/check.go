@@ -1,18 +1,18 @@
 package utils
 
 import (
-	"github.com/sinksmell/files-cmp/models"
-	"encoding/json"
-	"net/http"
 	"bytes"
-	"io/ioutil"
+	"encoding/json"
 	"fmt"
-	"mime/multipart"
+	"github.com/sinksmell/files-cmp/models"
 	"io"
+	"io/ioutil"
+	"mime/multipart"
+	"net/http"
 )
 
 // 发送 文件名 及其 md5值 检查是否一致
-func PostHash(hashreq *models.HashRequest,targetURL string) (res *models.Response, err error) {
+func PostHash(hashreq *models.HashRequest, targetURL string) (res *models.Response, err error) {
 	var (
 		jsonStr []byte
 		req     *http.Request
@@ -42,7 +42,7 @@ func PostHash(hashreq *models.HashRequest,targetURL string) (res *models.Respons
 }
 
 // 遍历各个组文件 提交文件名 和对应文件的hash值
-func SendGrpMd5(grpFile ,targetURL string) (resp *models.Response, err error) {
+func SendGrpMd5(grpFile, targetURL string) (resp *models.Response, err error) {
 	var (
 		req  models.HashRequest
 		hash string
@@ -56,19 +56,19 @@ func SendGrpMd5(grpFile ,targetURL string) (resp *models.Response, err error) {
 	req.FileName = grpFile
 	req.Hash = hash
 	// 发送 使用http发送json数据,比较分组的md5值
-	resp, err = PostHash(&req,targetURL)
+	resp, err = PostHash(&req, targetURL)
 	return
 }
 
 // 提交文件
-func PostFile(filename ,targetURL ,filepath,cmpType string) (res *models.Response,err error) {
+func PostFile(filename, targetURL, filepath, cmpType string) (res *models.Response, err error) {
 
 	var (
 		bodyBuf    *bytes.Buffer
 		bodyWriter *multipart.Writer
 		fileWriter io.Writer
-		content []byte
-		jsonData []byte  // http response body中的json数据
+		content    []byte
+		jsonData   []byte // http response body中的json数据
 	)
 	// 初始化
 	bodyBuf = &bytes.Buffer{}
@@ -80,42 +80,39 @@ func PostFile(filename ,targetURL ,filepath,cmpType string) (res *models.Respons
 	}
 
 	// 打开文件
-	if content, err = ioutil.ReadFile(filepath+filename);err!=nil{
+	if content, err = ioutil.ReadFile(filepath + filename); err != nil {
 		return
 	}
 
 	// 拷贝文件内容
-	if _,err=io.Copy(fileWriter,bytes.NewReader(content));err!=nil{
+	if _, err = io.Copy(fileWriter, bytes.NewReader(content)); err != nil {
 		return
 	}
 	// 设置请求头 发送请求
-	contentType:=bodyWriter.FormDataContentType()
+	contentType := bodyWriter.FormDataContentType()
 	// 设置文件对比类型
-	bodyWriter.WriteField("type",cmpType)
+	bodyWriter.WriteField("type", cmpType)
 	// 关闭Writer 使用defer会出错
 	bodyWriter.Close()
 
-	resp,err:=http.Post(targetURL,contentType,bodyBuf)
-	if err!=nil{
+	resp, err := http.Post(targetURL, contentType, bodyBuf)
+	if err != nil {
 		return
 	}
-	defer  resp.Body.Close()
+	defer resp.Body.Close()
 
 	// 获取返回的json数据
-	if jsonData,err=ioutil.ReadAll(resp.Body);err!=nil{
+	if jsonData, err = ioutil.ReadAll(resp.Body); err != nil {
 		return
 	}
 
 	// 解析返回的json数据
-	res,err=ParseResp(jsonData)
+	res, err = ParseResp(jsonData)
 	return
 }
 
-
-
-
 // 根据HTTP response 解析到 models.Response
-func ParseResp(bytes []byte)(res *models.Response,err error){
+func ParseResp(bytes []byte) (res *models.Response, err error) {
 	res = &models.Response{}
 	if err = json.Unmarshal(bytes, res); err != nil {
 		return
@@ -123,27 +120,26 @@ func ParseResp(bytes []byte)(res *models.Response,err error){
 	return
 }
 
-
 //
 
-func PostFile2(filename string, targetUrl string) (res *models.Response , err error) {
-	var(
-		bodyBuf *bytes.Buffer
+func PostFile2(filename string, targetUrl string) (res *models.Response, err error) {
+	var (
+		bodyBuf    *bytes.Buffer
 		bodyWriter *multipart.Writer
 		fileWriter io.Writer
-		content []byte
+		content    []byte
 	)
 
 	bodyBuf = &bytes.Buffer{}
 	bodyWriter = multipart.NewWriter(bodyBuf)
 
 	//构造一个请求表单
-	if fileWriter, err = bodyWriter.CreateFormFile("file", filename);err!=nil{
+	if fileWriter, err = bodyWriter.CreateFormFile("file", filename); err != nil {
 		fmt.Println("error writing to buffer")
 		return
 	}
 	// 读取文件内容
-	if content, err=ioutil.ReadFile(filename);err != nil {
+	if content, err = ioutil.ReadFile(filename); err != nil {
 		fmt.Println("error opening file")
 		return
 	}
@@ -167,6 +163,6 @@ func PostFile2(filename string, targetUrl string) (res *models.Response , err er
 		return
 	}
 
-	res,err=ParseResp(resp_body)
+	res, err = ParseResp(resp_body)
 	return
 }

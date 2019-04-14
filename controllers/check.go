@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"github.com/astaxie/beego"
-	"github.com/sinksmell/files-cmp/models"
 	"encoding/json"
 	"fmt"
+	"github.com/astaxie/beego"
+	"github.com/sinksmell/files-cmp/models"
 	"mime/multipart"
 )
 
@@ -105,8 +105,8 @@ func (c *CheckController) File() {
 
 	case models.CMP_FILE:
 		// 比较小文件
-		resp.Code=models.SUCCESS
-		resp.Diff=models.CmpFile(h.Filename)
+		resp.Code = models.SUCCESS
+		resp.Diff = models.CmpFile(h.Filename)
 	}
 
 	c.Data["json"] = resp

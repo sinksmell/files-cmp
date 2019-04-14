@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/sinksmell/files-cmp/models"
-	"github.com/sinksmell/files-cmp/client/utils"
 	"fmt"
+	"github.com/sinksmell/files-cmp/client/utils"
+	"github.com/sinksmell/files-cmp/models"
 )
 
 const (

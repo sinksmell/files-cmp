@@ -1,13 +1,13 @@
 package models
 
 import (
-	"os/exec"
-	"strings"
-	"os"
-	"fmt"
 	"bufio"
+	"fmt"
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"io/ioutil"
+	"os"
+	"os/exec"
+	"strings"
 )
 
 // 根据文件存放目录,获取目录下的所有文件名
@@ -91,12 +91,12 @@ func FileDiff(cFile, sFile string) (diffResult *DiffResult) {
 		text2    string //  Client的文件内容
 		bytes1   []byte // Server文件内容
 		bytes2   []byte
-		content1 strings.Builder                      // Server的文件特有内容
-		content2 strings.Builder                      // Client的文件特有内容
+		content1 strings.Builder                // Server的文件特有内容
+		content2 strings.Builder                // Client的文件特有内容
 		dmp      *diffmatchpatch.DiffMatchPatch // 文件对比器
 		diffs    []diffmatchpatch.Diff          // 对比结果
 		patches  []diffmatchpatch.Patch         // 记录文件变化
-		err error
+		err      error
 	)
 	// 初始化
 	diffResult = &DiffResult{}
@@ -123,21 +123,21 @@ func FileDiff(cFile, sFile string) (diffResult *DiffResult) {
 
 	// 记录Server与Client特有的文件内容
 	for _, diff := range diffs {
-		if diff.Type==diffmatchpatch.DiffInsert {
+		if diff.Type == diffmatchpatch.DiffInsert {
 			content1.WriteString(diff.Text)
 			content1.WriteString("\n")
-		}else if diff.Type==diffmatchpatch.DiffDelete{
+		} else if diff.Type == diffmatchpatch.DiffDelete {
 			content2.WriteString(diff.Text)
 			content2.WriteString("\n")
 		}
 	}
 
 	// 构造对比结果
-	diffResult.FileName=strings.TrimPrefix(sFile,FILE_PATH)
+	diffResult.FileName = strings.TrimPrefix(sFile, FILE_PATH)
 	diffResult.Changes = patchText
-	diffResult.ServerContent=content1.String()
-	diffResult.ClientContent=content2.String()
-	diffResult.ColorText=dmp.DiffPrettyText(diffs)
+	diffResult.ServerContent = content1.String()
+	diffResult.ClientContent = content2.String()
+	diffResult.ColorText = dmp.DiffPrettyText(diffs)
 	return
 }
 
@@ -226,5 +226,5 @@ func CmpGroup(fileName string) (files []string, err error) {
 
 // 比较对应的两个小文件
 func CmpFile(fileName string) (diff *DiffResult) {
-	return  FileDiff(UPLOAD_PATH+fileName,FILE_PATH+fileName)
+	return FileDiff(UPLOAD_PATH+fileName, FILE_PATH+fileName)
 }
