@@ -1,10 +1,9 @@
 package main
 
 import (
-	_ "github.com/sinksmell/files-cmp/routers"
-
 	"github.com/astaxie/beego"
 	"github.com/sinksmell/files-cmp/models"
+	_ "github.com/sinksmell/files-cmp/routers"
 )
 
 func init() {
@@ -15,6 +14,7 @@ func init() {
 }
 
 func main() {
+	// dev模式运行下可以使用swagger来测试接口
 	if beego.BConfig.RunMode == "dev" {
 		beego.BConfig.WebConfig.DirectoryIndex = true
 		beego.BConfig.WebConfig.StaticDir["/swagger"] = "swagger"

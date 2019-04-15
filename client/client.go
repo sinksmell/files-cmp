@@ -34,6 +34,7 @@ func main() {
 
 	var (
 		resp *models.Response // 文件对比结果
+		msg  string           // 输出的信息
 		err  error
 	)
 
@@ -45,17 +46,22 @@ func main() {
 		switch resp.Code {
 		case models.EQUAL:
 			// 分组文件的Md5值相同 不需要处理
-			fmt.Println(grp, "\t分组文件内容相同! ")
+			msg = setColor(grp+"\t分组文件内容相同!", 0, 0, 37)
+			fmt.Println(msg)
 		case models.NOT_EQUAL:
 			// 如果分组文件的Md5值不同 则把该分组文件发送过去 找到需要对比的小文件
-			fmt.Println(grp, "\t分组文件内容不同! ")
+			// 红色高亮显示
+			msg = setColor(grp+"\t分组文件内容不同!", 0, 0, 31)
+			fmt.Println(msg)
 			handleDiffGroup(grp)
+			fmt.Println("")
 		case models.REQ_ERR:
 			fmt.Println("Request Err!")
 		}
 	}
 }
 
+// 处理分组文件Md5值不同
 func handleDiffGroup(grpFile string) {
 
 	var (
@@ -68,12 +74,12 @@ func handleDiffGroup(grpFile string) {
 		fmt.Println(err)
 		return
 	}
-
 	// 获取响应中的 期望对比的文件集合
 	if len(res.Ack) > 0 {
 		for _, fname := range res.Ack {
 			// 遍历集合 把小文件发送过去 对比文件内容
 			if _res, err := utils.PostFile(fname, HOST+FILE_URL, models.FILE_PATH, models.CMP_FILE); err != nil {
+				fmt.Println(err)
 				fmt.Println("发送错误!")
 				continue
 			} else {
@@ -83,4 +89,9 @@ func handleDiffGroup(grpFile string) {
 		}
 
 	}
+}
+
+// 设定颜色打印
+func setColor(msg string, conf, bg, text int) string {
+	return fmt.Sprintf("%c[%d;%d;%dm%s%c[0m", 0x1B, conf, bg, text, msg, 0x1B)
 }

@@ -16,6 +16,10 @@ const (
 	// 文件对比类型
 	CMP_GROUP = "cmp_group"
 	CMP_FILE  = "cmp_file"
+	CMP_NON   = "cmp_non" // 什么都不比较 仅仅是上传文件
+
+	// 非文本文件比较内容限制为前512个字节
+	CMP_SIZE = 512
 
 	// 服务器响应码
 	EQUAL         = 0000 // 对应的文件的md5相同
@@ -70,6 +74,7 @@ type DiffResult struct {
 	ColorText     string `json:"color_text"` // 高亮显示出两个文本不同的内容
 }
 
+// 格式化打印结果
 func (res *DiffResult) String() string {
 	builder := strings.Builder{}
 	builder.WriteString("对比小文件为:\t")
@@ -80,7 +85,8 @@ func (res *DiffResult) String() string {
 	builder.WriteString(res.ServerContent)
 	builder.WriteString("\n文件变化内容适配:\n")
 	builder.WriteString(res.Changes)
-	builder.WriteString("\n高亮显示不同内容:\n")
+	builder.WriteString("\n高亮显示不同内容(黄色为本地文件,红色为远程文件):\n")
 	builder.WriteString(res.ColorText)
+	builder.WriteString("\n")
 	return builder.String()
 }

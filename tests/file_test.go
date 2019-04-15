@@ -72,7 +72,7 @@ func TestDiffGroup(t *testing.T) {
 func TestFileDiff(t *testing.T) {
 
 	//dmp := diffmatchpatch.New()
-	//if diffs:= models.FileDiff("../group/group_9.txt", "../static/upload/group_9.txt"); err != nil {
+	//if diffs:= models.TextFileDiff("../group/group_9.txt", "../static/upload/group_9.txt"); err != nil {
 	//	fmt.Println(err)
 	//} else {
 	//	//fmt.Println(dmp.DiffPrettyText(diffs))
@@ -88,7 +88,7 @@ func TestFileDiff(t *testing.T) {
 		text2FromPatches, _ := dmp.PatchApply(patchesFromText, text1)
 	*/
 
-	res := models.FileDiff("test.txt", "test2.txt")
+	res := models.TextFileDiff("test.txt", "test2.txt")
 	fmt.Println(res)
 
 }

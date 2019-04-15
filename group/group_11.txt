@@ -1,0 +1,2 @@
+tiger.jpg : 95b7f78aa5a45c9ab7018ee70fcee80d
+whale.png : fdd5c83bf0894de1b19586d7187dbbf7

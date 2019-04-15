@@ -25,6 +25,7 @@ func (c *CheckController) URLMapping() {
 // @Failure 403
 // @router / [get]
 func (c *CheckController) Get() {
+	// 一个测试路由
 	resp := &models.Response{}
 	resp.Code = models.SUCCESS
 	resp.Msg = "OK"
@@ -107,10 +108,15 @@ func (c *CheckController) File() {
 		// 比较小文件
 		resp.Code = models.SUCCESS
 		resp.Diff = models.CmpFile(h.Filename)
+
+	case models.CMP_NON:
+		resp.Code = models.SUCCESS
+		resp.Msg = models.CMP_NON
 	}
 
 	c.Data["json"] = resp
 	c.ServeJSON()
+	// 未出错的话在这里就进行返回
 	return
 
 ERR:
