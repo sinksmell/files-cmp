@@ -181,20 +181,6 @@ group_2.txt    分组文件内容不同!  ← 红色高亮
 
 ---
 
-## 🎨 截图展示
-
-### 分组文件对比流程
-![分组对比](https://i.loli.net/2019/04/15/5cb42272d379b.png)
-
-### 分组文件详情
-![分组详情](https://i.loli.net/2019/04/15/5cb42273da1c0.png)
-
-### JPG 文件对比（部分结果）
-![JPG 对比 1](https://i.loli.net/2019/04/15/5cb42271dc899.png)
-![JPG 对比 2](https://i.loli.net/2019/04/15/5cb42274e3ecd.png)
-
----
-
 ## 💡 性能优势
 
 | 传统方法 | Files-CMP |
