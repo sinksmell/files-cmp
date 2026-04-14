@@ -1,71 +1,33 @@
-# GitHub Pages workflow files
-.github/workflows/pages.yml
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.out
+build/
+dist/
 
-# Logs and temporary files
+# Dependencies
+vendor/
+*.mod
+*.sum
+
+# Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment variables
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Build artifacts and dependencies
-node_modules/
-dist/
-build/
-target/
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Python specific
-*.pyc
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Go-specific
+*.test
+*.prof
+```
